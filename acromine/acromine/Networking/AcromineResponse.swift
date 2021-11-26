@@ -30,7 +30,15 @@ extension AcromineResponse {
 
 extension AcromineResponseData {
     func toAcromine() -> Acromine {
-        return Acromine(longform: self.lf, frequency: self.freq, since: self.since, variations: nil)
-    
+        if let vars = self.vars {
+            var variations = [Acromine]()
+            for item in vars {
+                let acromine = item.toAcromine()
+                variations.append(acromine)
+            }
+            return Acromine(longform: self.lf, frequency: self.freq, since: self.since, variations: variations)
+        } else {
+            return Acromine(longform: self.lf, frequency: self.freq, since: self.since, variations: nil)
+        }
     }
 }
