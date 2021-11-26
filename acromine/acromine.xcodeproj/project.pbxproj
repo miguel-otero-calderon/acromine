@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C5789C027509E7C001A7A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789BF27509E7C001A7A34 /* AppDelegate.swift */; };
+		4C5789C227509E7C001A7A34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789C127509E7C001A7A34 /* SceneDelegate.swift */; };
+		4C5789C427509E7C001A7A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789C327509E7C001A7A34 /* ViewController.swift */; };
+		4C5789C727509E7C001A7A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5789C527509E7C001A7A34 /* Main.storyboard */; };
+		4C5789C927509E7E001A7A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5789C827509E7E001A7A34 /* Assets.xcassets */; };
+		4C5789CC27509E7E001A7A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5789CA27509E7E001A7A34 /* LaunchScreen.storyboard */; };
+		4C5789D727509E7E001A7A34 /* acromineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789D627509E7E001A7A34 /* acromineTests.swift */; };
+		4C5789E127509E7E001A7A34 /* acromineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789E027509E7E001A7A34 /* acromineUITests.swift */; };
+		4C5789E327509E7E001A7A34 /* acromineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789E227509E7E001A7A34 /* acromineUITestsLaunchTests.swift */; };
+		53396A429375A2A0EBEF48E5 /* Pods_acromine_acromineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DC396EE7A30D75148B2181 /* Pods_acromine_acromineUITests.framework */; };
+		6F2741DDE8F3FA5580E06D0C /* Pods_acromineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C8D4F094396328CAD934A /* Pods_acromineTests.framework */; };
+		7D6AA86AF66D57F15AA866A9 /* Pods_acromine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC3AB7E987A096247A35F04 /* Pods_acromine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C5789D327509E7E001A7A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5789B427509E7C001A7A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5789BB27509E7C001A7A34;
+			remoteInfo = acromine;
+		};
+		4C5789DD27509E7E001A7A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C5789B427509E7C001A7A34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C5789BB27509E7C001A7A34;
+			remoteInfo = acromine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		069C8D4F094396328CAD934A /* Pods_acromineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acromineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B30876767102676713A6A1 /* Pods-acromineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromineTests.debug.xcconfig"; path = "Target Support Files/Pods-acromineTests/Pods-acromineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C5789BC27509E7C001A7A34 /* acromine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acromine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5789BF27509E7C001A7A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C5789C127509E7C001A7A34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C5789C327509E7C001A7A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C5789C627509E7C001A7A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C5789C827509E7E001A7A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C5789CB27509E7E001A7A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C5789CD27509E7E001A7A34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5789D227509E7E001A7A34 /* acromineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acromineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5789D627509E7E001A7A34 /* acromineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acromineTests.swift; sourceTree = "<group>"; };
+		4C5789DC27509E7E001A7A34 /* acromineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acromineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C5789E027509E7E001A7A34 /* acromineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acromineUITests.swift; sourceTree = "<group>"; };
+		4C5789E227509E7E001A7A34 /* acromineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acromineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		54E89FFB376702F1F1D4420E /* Pods-acromine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromine.debug.xcconfig"; path = "Target Support Files/Pods-acromine/Pods-acromine.debug.xcconfig"; sourceTree = "<group>"; };
+		5FC3AB7E987A096247A35F04 /* Pods_acromine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acromine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		713E080E83677119F8873C83 /* Pods-acromine-acromineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromine-acromineUITests.debug.xcconfig"; path = "Target Support Files/Pods-acromine-acromineUITests/Pods-acromine-acromineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F4A23051708CD0BDBDCDE87 /* Pods-acromineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromineTests.release.xcconfig"; path = "Target Support Files/Pods-acromineTests/Pods-acromineTests.release.xcconfig"; sourceTree = "<group>"; };
+		A8DC396EE7A30D75148B2181 /* Pods_acromine_acromineUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acromine_acromineUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C420D27E3E866E79930D11E1 /* Pods-acromine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromine.release.xcconfig"; path = "Target Support Files/Pods-acromine/Pods-acromine.release.xcconfig"; sourceTree = "<group>"; };
+		DAB1D8757AC0A40596AF6C90 /* Pods-acromine-acromineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromine-acromineUITests.release.xcconfig"; path = "Target Support Files/Pods-acromine-acromineUITests/Pods-acromine-acromineUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C5789B927509E7C001A7A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D6AA86AF66D57F15AA866A9 /* Pods_acromine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5789CF27509E7E001A7A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2741DDE8F3FA5580E06D0C /* Pods_acromineTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5789D927509E7E001A7A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53396A429375A2A0EBEF48E5 /* Pods_acromine_acromineUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08CFAD8B26115894727FFB05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FC3AB7E987A096247A35F04 /* Pods_acromine.framework */,
+				A8DC396EE7A30D75148B2181 /* Pods_acromine_acromineUITests.framework */,
+				069C8D4F094396328CAD934A /* Pods_acromineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30312D137FEC31C0B90567CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54E89FFB376702F1F1D4420E /* Pods-acromine.debug.xcconfig */,
+				C420D27E3E866E79930D11E1 /* Pods-acromine.release.xcconfig */,
+				713E080E83677119F8873C83 /* Pods-acromine-acromineUITests.debug.xcconfig */,
+				DAB1D8757AC0A40596AF6C90 /* Pods-acromine-acromineUITests.release.xcconfig */,
+				38B30876767102676713A6A1 /* Pods-acromineTests.debug.xcconfig */,
+				7F4A23051708CD0BDBDCDE87 /* Pods-acromineTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C5789B327509E7C001A7A34 = {
+			isa = PBXGroup;
+			children = (
+				4C5789BE27509E7C001A7A34 /* acromine */,
+				4C5789D527509E7E001A7A34 /* acromineTests */,
+				4C5789DF27509E7E001A7A34 /* acromineUITests */,
+				4C5789BD27509E7C001A7A34 /* Products */,
+				30312D137FEC31C0B90567CD /* Pods */,
+				08CFAD8B26115894727FFB05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4C5789BD27509E7C001A7A34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C5789BC27509E7C001A7A34 /* acromine.app */,
+				4C5789D227509E7E001A7A34 /* acromineTests.xctest */,
+				4C5789DC27509E7E001A7A34 /* acromineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C5789BE27509E7C001A7A34 /* acromine */ = {
+			isa = PBXGroup;
+			children = (
+				4C5789BF27509E7C001A7A34 /* AppDelegate.swift */,
+				4C5789C127509E7C001A7A34 /* SceneDelegate.swift */,
+				4C5789C327509E7C001A7A34 /* ViewController.swift */,
+				4C5789C527509E7C001A7A34 /* Main.storyboard */,
+				4C5789C827509E7E001A7A34 /* Assets.xcassets */,
+				4C5789CA27509E7E001A7A34 /* LaunchScreen.storyboard */,
+				4C5789CD27509E7E001A7A34 /* Info.plist */,
+			);
+			path = acromine;
+			sourceTree = "<group>";
+		};
+		4C5789D527509E7E001A7A34 /* acromineTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5789D627509E7E001A7A34 /* acromineTests.swift */,
+			);
+			path = acromineTests;
+			sourceTree = "<group>";
+		};
+		4C5789DF27509E7E001A7A34 /* acromineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C5789E027509E7E001A7A34 /* acromineUITests.swift */,
+				4C5789E227509E7E001A7A34 /* acromineUITestsLaunchTests.swift */,
+			);
+			path = acromineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C5789BB27509E7C001A7A34 /* acromine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5789E627509E7E001A7A34 /* Build configuration list for PBXNativeTarget "acromine" */;
+			buildPhases = (
+				2C1CDF88EC23FCCC4412CC61 /* [CP] Check Pods Manifest.lock */,
+				4C5789B827509E7C001A7A34 /* Sources */,
+				4C5789B927509E7C001A7A34 /* Frameworks */,
+				4C5789BA27509E7C001A7A34 /* Resources */,
+				9616AC021753218A72F2EEAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = acromine;
+			productName = acromine;
+			productReference = 4C5789BC27509E7C001A7A34 /* acromine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C5789D127509E7E001A7A34 /* acromineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5789E927509E7E001A7A34 /* Build configuration list for PBXNativeTarget "acromineTests" */;
+			buildPhases = (
+				468046DBB9E8C6899F4DAABF /* [CP] Check Pods Manifest.lock */,
+				4C5789CE27509E7E001A7A34 /* Sources */,
+				4C5789CF27509E7E001A7A34 /* Frameworks */,
+				4C5789D027509E7E001A7A34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5789D427509E7E001A7A34 /* PBXTargetDependency */,
+			);
+			name = acromineTests;
+			productName = acromineTests;
+			productReference = 4C5789D227509E7E001A7A34 /* acromineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C5789DB27509E7E001A7A34 /* acromineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C5789EC27509E7E001A7A34 /* Build configuration list for PBXNativeTarget "acromineUITests" */;
+			buildPhases = (
+				091267F6A2BE9F0B7DD416E2 /* [CP] Check Pods Manifest.lock */,
+				4C5789D827509E7E001A7A34 /* Sources */,
+				4C5789D927509E7E001A7A34 /* Frameworks */,
+				4C5789DA27509E7E001A7A34 /* Resources */,
+				5BE6BA8EA6876C74B42B1640 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C5789DE27509E7E001A7A34 /* PBXTargetDependency */,
+			);
+			name = acromineUITests;
+			productName = acromineUITests;
+			productReference = 4C5789DC27509E7E001A7A34 /* acromineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C5789B427509E7C001A7A34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4C5789BB27509E7C001A7A34 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4C5789D127509E7E001A7A34 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4C5789BB27509E7C001A7A34;
+					};
+					4C5789DB27509E7E001A7A34 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4C5789BB27509E7C001A7A34;
+					};
+				};
+			};
+			buildConfigurationList = 4C5789B727509E7C001A7A34 /* Build configuration list for PBXProject "acromine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C5789B327509E7C001A7A34;
+			productRefGroup = 4C5789BD27509E7C001A7A34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C5789BB27509E7C001A7A34 /* acromine */,
+				4C5789D127509E7E001A7A34 /* acromineTests */,
+				4C5789DB27509E7E001A7A34 /* acromineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C5789BA27509E7C001A7A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5789CC27509E7E001A7A34 /* LaunchScreen.storyboard in Resources */,
+				4C5789C927509E7E001A7A34 /* Assets.xcassets in Resources */,
+				4C5789C727509E7C001A7A34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5789D027509E7E001A7A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5789DA27509E7E001A7A34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		091267F6A2BE9F0B7DD416E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-acromine-acromineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C1CDF88EC23FCCC4412CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-acromine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		468046DBB9E8C6899F4DAABF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-acromineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE6BA8EA6876C74B42B1640 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-acromine-acromineUITests/Pods-acromine-acromineUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-acromine-acromineUITests/Pods-acromine-acromineUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-acromine-acromineUITests/Pods-acromine-acromineUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9616AC021753218A72F2EEAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-acromine/Pods-acromine-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-acromine/Pods-acromine-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-acromine/Pods-acromine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5789B827509E7C001A7A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5789C427509E7C001A7A34 /* ViewController.swift in Sources */,
+				4C5789C027509E7C001A7A34 /* AppDelegate.swift in Sources */,
+				4C5789C227509E7C001A7A34 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5789CE27509E7E001A7A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5789D727509E7E001A7A34 /* acromineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C5789D827509E7E001A7A34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5789E327509E7E001A7A34 /* acromineUITestsLaunchTests.swift in Sources */,
+				4C5789E127509E7E001A7A34 /* acromineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C5789D427509E7E001A7A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5789BB27509E7C001A7A34 /* acromine */;
+			targetProxy = 4C5789D327509E7E001A7A34 /* PBXContainerItemProxy */;
+		};
+		4C5789DE27509E7E001A7A34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C5789BB27509E7C001A7A34 /* acromine */;
+			targetProxy = 4C5789DD27509E7E001A7A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C5789C527509E7C001A7A34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5789C627509E7C001A7A34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C5789CA27509E7E001A7A34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C5789CB27509E7E001A7A34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C5789E427509E7E001A7A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C5789E527509E7E001A7A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C5789E727509E7E001A7A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E89FFB376702F1F1D4420E /* Pods-acromine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGHBCD3B3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = acromine/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguel.otero.ios.challenger.acromine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C5789E827509E7E001A7A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C420D27E3E866E79930D11E1 /* Pods-acromine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGHBCD3B3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = acromine/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguel.otero.ios.challenger.acromine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4C5789EA27509E7E001A7A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B30876767102676713A6A1 /* Pods-acromineTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGHBCD3B3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguel.otero.ios.challenger.acromine.acromineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acromine.app/acromine";
+			};
+			name = Debug;
+		};
+		4C5789EB27509E7E001A7A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4A23051708CD0BDBDCDE87 /* Pods-acromineTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGHBCD3B3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguel.otero.ios.challenger.acromine.acromineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acromine.app/acromine";
+			};
+			name = Release;
+		};
+		4C5789ED27509E7E001A7A34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713E080E83677119F8873C83 /* Pods-acromine-acromineUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGHBCD3B3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguel.otero.ios.challenger.acromine.acromineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = acromine;
+			};
+			name = Debug;
+		};
+		4C5789EE27509E7E001A7A34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB1D8757AC0A40596AF6C90 /* Pods-acromine-acromineUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGHBCD3B3C;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miguel.otero.ios.challenger.acromine.acromineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = acromine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C5789B727509E7C001A7A34 /* Build configuration list for PBXProject "acromine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5789E427509E7E001A7A34 /* Debug */,
+				4C5789E527509E7E001A7A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5789E627509E7E001A7A34 /* Build configuration list for PBXNativeTarget "acromine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5789E727509E7E001A7A34 /* Debug */,
+				4C5789E827509E7E001A7A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5789E927509E7E001A7A34 /* Build configuration list for PBXNativeTarget "acromineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5789EA27509E7E001A7A34 /* Debug */,
+				4C5789EB27509E7E001A7A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C5789EC27509E7E001A7A34 /* Build configuration list for PBXNativeTarget "acromineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5789ED27509E7E001A7A34 /* Debug */,
+				4C5789EE27509E7E001A7A34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C5789B427509E7C001A7A34 /* Project object */;
+}

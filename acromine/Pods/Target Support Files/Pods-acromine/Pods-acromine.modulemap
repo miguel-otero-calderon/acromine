@@ -1,0 +1,6 @@
+framework module Pods_acromine {
+  umbrella header "Pods-acromine-umbrella.h"
+
+  export *
+  module * { export * }
+}

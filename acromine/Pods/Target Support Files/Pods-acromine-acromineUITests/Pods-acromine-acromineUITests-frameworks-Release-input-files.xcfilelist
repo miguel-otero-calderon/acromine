@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-acromine-acromineUITests/Pods-acromine-acromineUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework

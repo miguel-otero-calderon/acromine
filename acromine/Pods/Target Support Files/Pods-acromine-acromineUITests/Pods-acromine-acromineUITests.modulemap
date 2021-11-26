@@ -1,0 +1,6 @@
+framework module Pods_acromine_acromineUITests {
+  umbrella header "Pods-acromine-acromineUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
