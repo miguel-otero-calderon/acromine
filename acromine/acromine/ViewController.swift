@@ -9,16 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var acronimoTextField: UITextField!
+    @IBOutlet weak var searchButton: UIButton!
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let service = AcromineService()
-        service.getAcromines(request: AcromineRequest(sf: "HMM")) { response, error in
-            print(response)
-            print(error)
-        }
+    
+        searchButton.setStyleScore(background: AppColors.newGreen, textButton: AppColors.white)
     }
 
-
+    @IBAction func searchAction(_ sender: Any) {
+        print("1111")
+    }
+    
 }
 
