@@ -16,6 +16,11 @@
 		4C5789D727509E7E001A7A34 /* acromineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789D627509E7E001A7A34 /* acromineTests.swift */; };
 		4C5789E127509E7E001A7A34 /* acromineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789E027509E7E001A7A34 /* acromineUITests.swift */; };
 		4C5789E327509E7E001A7A34 /* acromineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789E227509E7E001A7A34 /* acromineUITestsLaunchTests.swift */; };
+		4C5789F32750B2C9001A7A34 /* AcromineEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789F22750B2C9001A7A34 /* AcromineEndpoint.swift */; };
+		4C5789F52750BD65001A7A34 /* AcromineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789F42750BD65001A7A34 /* AcromineService.swift */; };
+		4C5789F72750BDD9001A7A34 /* AcromineRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789F62750BDD9001A7A34 /* AcromineRequest.swift */; };
+		4C5789F92750BE0E001A7A34 /* AcromineResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789F82750BE0E001A7A34 /* AcromineResponse.swift */; };
+		4C5789FD2750BF29001A7A34 /* AcromineServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789FC2750BF29001A7A34 /* AcromineServiceTest.swift */; };
 		53396A429375A2A0EBEF48E5 /* Pods_acromine_acromineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DC396EE7A30D75148B2181 /* Pods_acromine_acromineUITests.framework */; };
 		6F2741DDE8F3FA5580E06D0C /* Pods_acromineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C8D4F094396328CAD934A /* Pods_acromineTests.framework */; };
 		7D6AA86AF66D57F15AA866A9 /* Pods_acromine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC3AB7E987A096247A35F04 /* Pods_acromine.framework */; };
@@ -54,6 +59,11 @@
 		4C5789DC27509E7E001A7A34 /* acromineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acromineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5789E027509E7E001A7A34 /* acromineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acromineUITests.swift; sourceTree = "<group>"; };
 		4C5789E227509E7E001A7A34 /* acromineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acromineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C5789F22750B2C9001A7A34 /* AcromineEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineEndpoint.swift; sourceTree = "<group>"; };
+		4C5789F42750BD65001A7A34 /* AcromineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineService.swift; sourceTree = "<group>"; };
+		4C5789F62750BDD9001A7A34 /* AcromineRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineRequest.swift; sourceTree = "<group>"; };
+		4C5789F82750BE0E001A7A34 /* AcromineResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineResponse.swift; sourceTree = "<group>"; };
+		4C5789FC2750BF29001A7A34 /* AcromineServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineServiceTest.swift; sourceTree = "<group>"; };
 		54E89FFB376702F1F1D4420E /* Pods-acromine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromine.debug.xcconfig"; path = "Target Support Files/Pods-acromine/Pods-acromine.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC3AB7E987A096247A35F04 /* Pods_acromine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acromine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		713E080E83677119F8873C83 /* Pods-acromine-acromineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromine-acromineUITests.debug.xcconfig"; path = "Target Support Files/Pods-acromine-acromineUITests/Pods-acromine-acromineUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,7 +121,6 @@
 				38B30876767102676713A6A1 /* Pods-acromineTests.debug.xcconfig */,
 				7F4A23051708CD0BDBDCDE87 /* Pods-acromineTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +149,7 @@
 		4C5789BE27509E7C001A7A34 /* acromine */ = {
 			isa = PBXGroup;
 			children = (
+				4C5789EF2750B282001A7A34 /* Networking */,
 				4C5789BF27509E7C001A7A34 /* AppDelegate.swift */,
 				4C5789C127509E7C001A7A34 /* SceneDelegate.swift */,
 				4C5789C327509E7C001A7A34 /* ViewController.swift */,
@@ -155,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				4C5789D627509E7E001A7A34 /* acromineTests.swift */,
+				4C5789FC2750BF29001A7A34 /* AcromineServiceTest.swift */,
 			);
 			path = acromineTests;
 			sourceTree = "<group>";
@@ -166,6 +177,17 @@
 				4C5789E227509E7E001A7A34 /* acromineUITestsLaunchTests.swift */,
 			);
 			path = acromineUITests;
+			sourceTree = "<group>";
+		};
+		4C5789EF2750B282001A7A34 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4C5789F22750B2C9001A7A34 /* AcromineEndpoint.swift */,
+				4C5789F42750BD65001A7A34 /* AcromineService.swift */,
+				4C5789F62750BDD9001A7A34 /* AcromineRequest.swift */,
+				4C5789F82750BE0E001A7A34 /* AcromineResponse.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,9 +429,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5789F32750B2C9001A7A34 /* AcromineEndpoint.swift in Sources */,
 				4C5789C427509E7C001A7A34 /* ViewController.swift in Sources */,
 				4C5789C027509E7C001A7A34 /* AppDelegate.swift in Sources */,
 				4C5789C227509E7C001A7A34 /* SceneDelegate.swift in Sources */,
+				4C5789F92750BE0E001A7A34 /* AcromineResponse.swift in Sources */,
+				4C5789F52750BD65001A7A34 /* AcromineService.swift in Sources */,
+				4C5789F72750BDD9001A7A34 /* AcromineRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5789D727509E7E001A7A34 /* acromineTests.swift in Sources */,
+				4C5789FD2750BF29001A7A34 /* AcromineServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

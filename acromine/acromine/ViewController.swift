@@ -11,7 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let service = AcromineService()
+        service.getAcromines(request: AcromineRequest(sf: "HMM")) { response, error in
+            print(response)
+            print(error)
+        }
     }
 
 
