@@ -222,12 +222,9 @@
 		4C578A062750CAAC001A7A34 /* Acronime */ = {
 			isa = PBXGroup;
 			children = (
-				4C578A0D2750CE57001A7A34 /* Model */,
-				4C578A0C2750CE4E001A7A34 /* ViewModel */,
 				4C578A0B2750CE47001A7A34 /* View */,
-				4C5789C327509E7C001A7A34 /* AcromineView.swift */,
-				4C578A072750CB01001A7A34 /* AcromineViewModel.swift */,
-				4C578A092750CB12001A7A34 /* AcromineModel.swift */,
+				4C578A0C2750CE4E001A7A34 /* ViewModel */,
+				4C578A0D2750CE57001A7A34 /* Model */,
 			);
 			path = Acronime;
 			sourceTree = "<group>";
@@ -235,6 +232,7 @@
 		4C578A0B2750CE47001A7A34 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				4C5789C327509E7C001A7A34 /* AcromineView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -242,6 +240,7 @@
 		4C578A0C2750CE4E001A7A34 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				4C578A072750CB01001A7A34 /* AcromineViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -249,6 +248,7 @@
 		4C578A0D2750CE57001A7A34 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4C578A092750CB12001A7A34 /* AcromineModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
