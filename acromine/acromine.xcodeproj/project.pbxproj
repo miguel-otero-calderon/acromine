@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C5789C027509E7C001A7A34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789BF27509E7C001A7A34 /* AppDelegate.swift */; };
 		4C5789C227509E7C001A7A34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789C127509E7C001A7A34 /* SceneDelegate.swift */; };
-		4C5789C427509E7C001A7A34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789C327509E7C001A7A34 /* ViewController.swift */; };
+		4C5789C427509E7C001A7A34 /* AcromineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789C327509E7C001A7A34 /* AcromineView.swift */; };
 		4C5789C727509E7C001A7A34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5789C527509E7C001A7A34 /* Main.storyboard */; };
 		4C5789C927509E7E001A7A34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C5789C827509E7E001A7A34 /* Assets.xcassets */; };
 		4C5789CC27509E7E001A7A34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5789CA27509E7E001A7A34 /* LaunchScreen.storyboard */; };
@@ -24,6 +24,8 @@
 		4C578A002750C5AA001A7A34 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5789FF2750C5AA001A7A34 /* AppColors.swift */; };
 		4C578A032750C722001A7A34 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C578A022750C722001A7A34 /* UIColor.swift */; };
 		4C578A052750C773001A7A34 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C578A042750C773001A7A34 /* UIButton.swift */; };
+		4C578A082750CB01001A7A34 /* AcromineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C578A072750CB01001A7A34 /* AcromineViewModel.swift */; };
+		4C578A0A2750CB12001A7A34 /* AcromineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C578A092750CB12001A7A34 /* AcromineModel.swift */; };
 		53396A429375A2A0EBEF48E5 /* Pods_acromine_acromineUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DC396EE7A30D75148B2181 /* Pods_acromine_acromineUITests.framework */; };
 		6F2741DDE8F3FA5580E06D0C /* Pods_acromineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 069C8D4F094396328CAD934A /* Pods_acromineTests.framework */; };
 		7D6AA86AF66D57F15AA866A9 /* Pods_acromine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FC3AB7E987A096247A35F04 /* Pods_acromine.framework */; };
@@ -52,7 +54,7 @@
 		4C5789BC27509E7C001A7A34 /* acromine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acromine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C5789BF27509E7C001A7A34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C5789C127509E7C001A7A34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C5789C327509E7C001A7A34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C5789C327509E7C001A7A34 /* AcromineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineView.swift; sourceTree = "<group>"; };
 		4C5789C627509E7C001A7A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C5789C827509E7E001A7A34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C5789CB27509E7E001A7A34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,6 +72,8 @@
 		4C5789FF2750C5AA001A7A34 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		4C578A022750C722001A7A34 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		4C578A042750C773001A7A34 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		4C578A072750CB01001A7A34 /* AcromineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineViewModel.swift; sourceTree = "<group>"; };
+		4C578A092750CB12001A7A34 /* AcromineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcromineModel.swift; sourceTree = "<group>"; };
 		54E89FFB376702F1F1D4420E /* Pods-acromine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromine.debug.xcconfig"; path = "Target Support Files/Pods-acromine/Pods-acromine.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC3AB7E987A096247A35F04 /* Pods_acromine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acromine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		713E080E83677119F8873C83 /* Pods-acromine-acromineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acromine-acromineUITests.debug.xcconfig"; path = "Target Support Files/Pods-acromine-acromineUITests/Pods-acromine-acromineUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,12 +159,12 @@
 		4C5789BE27509E7C001A7A34 /* acromine */ = {
 			isa = PBXGroup;
 			children = (
+				4C578A062750CAAC001A7A34 /* Acronime */,
 				4C578A012750C70D001A7A34 /* Extensions */,
 				4C5789FE2750C560001A7A34 /* Resources */,
 				4C5789EF2750B282001A7A34 /* Networking */,
 				4C5789BF27509E7C001A7A34 /* AppDelegate.swift */,
 				4C5789C127509E7C001A7A34 /* SceneDelegate.swift */,
-				4C5789C327509E7C001A7A34 /* ViewController.swift */,
 				4C5789C527509E7C001A7A34 /* Main.storyboard */,
 				4C5789C827509E7E001A7A34 /* Assets.xcassets */,
 				4C5789CA27509E7E001A7A34 /* LaunchScreen.storyboard */,
@@ -213,6 +217,40 @@
 				4C578A042750C773001A7A34 /* UIButton.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4C578A062750CAAC001A7A34 /* Acronime */ = {
+			isa = PBXGroup;
+			children = (
+				4C578A0D2750CE57001A7A34 /* Model */,
+				4C578A0C2750CE4E001A7A34 /* ViewModel */,
+				4C578A0B2750CE47001A7A34 /* View */,
+				4C5789C327509E7C001A7A34 /* AcromineView.swift */,
+				4C578A072750CB01001A7A34 /* AcromineViewModel.swift */,
+				4C578A092750CB12001A7A34 /* AcromineModel.swift */,
+			);
+			path = Acronime;
+			sourceTree = "<group>";
+		};
+		4C578A0B2750CE47001A7A34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C578A0C2750CE4E001A7A34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4C578A0D2750CE57001A7A34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -455,13 +493,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5789F32750B2C9001A7A34 /* AcromineEndpoint.swift in Sources */,
-				4C5789C427509E7C001A7A34 /* ViewController.swift in Sources */,
+				4C5789C427509E7C001A7A34 /* AcromineView.swift in Sources */,
 				4C5789C027509E7C001A7A34 /* AppDelegate.swift in Sources */,
 				4C5789C227509E7C001A7A34 /* SceneDelegate.swift in Sources */,
 				4C578A032750C722001A7A34 /* UIColor.swift in Sources */,
 				4C578A052750C773001A7A34 /* UIButton.swift in Sources */,
 				4C5789F92750BE0E001A7A34 /* AcromineResponse.swift in Sources */,
 				4C578A002750C5AA001A7A34 /* AppColors.swift in Sources */,
+				4C578A082750CB01001A7A34 /* AcromineViewModel.swift in Sources */,
+				4C578A0A2750CB12001A7A34 /* AcromineModel.swift in Sources */,
 				4C5789F52750BD65001A7A34 /* AcromineService.swift in Sources */,
 				4C5789F72750BDD9001A7A34 /* AcromineRequest.swift in Sources */,
 			);

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AcromineView: UIViewController {
 
     @IBOutlet weak var acronimoTextField: UITextField!
     @IBOutlet weak var searchButton: UIButton!
@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func searchAction(_ sender: Any) {
-        print("1111")
+        
     }
     
 }

@@ -18,3 +18,19 @@ struct AcromineResponseData: Codable {
     let freq, since: Int
     let vars: [AcromineResponseData]?
 }
+
+
+extension AcromineResponse {
+    func toAcromineModel() -> AcromineModel {
+        return AcromineModel(search: self.sf, acromines: self.lfs.map({ item in
+            item.toAcromine()
+        }))
+    }
+}
+
+extension AcromineResponseData {
+    func toAcromine() -> Acromine {
+        return Acromine(longform: self.lf, frequency: self.freq, since: self.since, variations: nil)
+    
+    }
+}
